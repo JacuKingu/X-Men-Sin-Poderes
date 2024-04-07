@@ -8,8 +8,9 @@
 
 	<title>Bootstrap 4, from LayoutIt!</title>
 
-	<meta name="description" content="Source code generated using layoutit.com">
-	<meta name="author" content="LayoutIt!">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -504,67 +505,89 @@
 		</div>
 	</div>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/scripts.js"></script>
-	<h1>Hola Causas</h1>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-		crossorigin="anonymous"></script>
-
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-		crossorigin="anonymous"></script>
-	<footer>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<form action="" id="contactForm">
-						<div class="form-group row">
-							<div class="col">
-								<label for="Nombres">Firts Name</label>
-								<input type="text" class="form-control" id="nombres" placeholder="Firts Name" required>
-							</div>
-							<div class="col">
-								<label for="Apellidos">Last Name</label>
-								<input type="text" class="form-control" id="apellidos" placeholder="Last Name" required>
-							</div>
-						</div>
-						<div class="form-group row">
-							<div class="col">
-								<label for="Email">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email" required>
-							</div>
-							<div class="col">
-								<label for="Email">Phone Number</label>
-								<input type="number" class="form-control" id="telefono" placeholder="(021-452 548)"
-									required>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="mensaje">Como Podemos Ayudarte</label>
-							<div class="mensaje">
-								<textarea name="form-control" id="mensaje" rows="5"></textarea>
-							</div>
-						</div>
-						<button class="btn btn-primary">Submit</button>
-					</form>
-				</div>
-				<div class="col-md-6 custom-background">
-					<h2>Contactanos</h2>
-					<ul class="list-unstyled">
-						<li><i class="fas fa-map-marker-alt"></i> Dirección: 123 Calle Principal, Ciudad</li>
-						<li><i class="fas fa-envelope"></i> Email: info@example.com</li>
-						<li><i class="fas fa-phone"></i> Teléfono: +123 456 7890</li>
-					</ul>
+<!-- Esta parte es los tours -->
+	<div class="container">
+		<div class="row">
+			<div class="col">
+			    <div class="card text-bg-dark">
+					<img src="images/machuAdventurePack7.jpg" class="card-img" alt="...">
+					<div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5);">
+					    <h5 class="card-title">Machu Picchu</h5>
+					    <p class="card-text">All tours abouth machu picchu</p>
+					    <p class="card-text"><small>Book more tours with machu picchu</small></p>
+					    <a href="machupicchuAdventure.html">
+					    	<button type="button" class="btn btn-outline-info">View More</button>
+						</a>
+	    			</div>
 				</div>
 			</div>
+		    <div class="col">
+		      	<div class="card text-bg-dark">
+				    <img src="images/machuAdventurePack8.jpg" class="card-img" alt="...">
+				    <div class="card-img-overlay" style="background-color: rgba(0, 0, 0, 0.5);">
+					    <h5 class="card-title">Experiential Tourism in Perú</h5>
+					    <p class="card-text">Experiencied based tourism in Mullakas Misminay, plus Maras Moray, Sacred Valley and Machu Picchu</p>
+					    <p class="card-text"><small>Book yout best experiencie in this site</small></p>
+					  </div>
+					</div>
+		    </div>
 		</div>
-	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-		crossorigin="anonymous"></script>
-</body>
+	</div>
 
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <h1>Hola Causas</h1>
+    
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="" id="contactForm">
+                        <div class="form-group row">
+                            <div class="col">
+                                <label for="Nombres">Firts Name</label>
+                                <input type="text" class="form-control" id="nombres" placeholder="Firts Name" required>
+                            </div>
+                            <div class="col">
+                                <label for="Apellidos">Last Name</label>
+                                <input type="text" class="form-control" id="apellidos" placeholder="Last Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <div class="col">
+                                <label for="Email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                            </div>
+                            <div class="col">
+                                <label for="Email">Phone Number</label>
+                                <input type="number" class="form-control" id="telefono" placeholder="(021-452 548)" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Como Podemos Ayudarte</label>
+                            <div class="mensaje">
+                                <textarea name="form-control" id="mensaje" rows="5"></textarea>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-6 custom-background">
+                    <h2>Contactanos</h2>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Dirección: 123 Calle Principal, Ciudad</li>
+                        <li><i class="fas fa-envelope"></i> Email: info@example.com</li>
+                        <li><i class="fas fa-phone"></i> Teléfono: +123 456 7890</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer> 
+  </body>
+  <!-- Enlaces de js de bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
